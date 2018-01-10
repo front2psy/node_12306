@@ -13,8 +13,8 @@ var config = {
     from_station:'shenzhen',
     end_station:'jiujiang',
     train_num:'Z186|K92|K824',//车次
-    your_mail:'sxliu_199124@163.com',
-    mail_pass:'sxliu246'
+    your_mail:'xxx@163.com',
+    mail_pass:'**********'
 };
 let _stations = JSON.parse(fs.readFileSync('station.json', 'utf-8'));
 let isRewrite = hasArgv(process.argv, '-r');
